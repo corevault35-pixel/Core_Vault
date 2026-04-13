@@ -592,6 +592,14 @@
     .stars { color: var(--gold); font-size: 0.8rem; letter-spacing: 1px; }
     .rating-count { font-size: 0.72rem; color: var(--muted); }
 
+    .card-price {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--green);
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
     /* ── COMPARE ── */
     .compare-banner {
       background: linear-gradient(135deg, var(--surface2), var(--surface));
@@ -1081,7 +1089,7 @@
       <h2>Intel Core Ultra 9 285K</h2>
       <p>24 cores. 5.7 GHz boost. The undisputed king of performance computing — engineered for creators, gamers, and professionals who accept no compromise.</p>
       <div class="banner-actions">
-        <a href="https://amzn.to/4sSpZKZ" target="_blank" class="btn-amazon">
+        <a href="https://www.amazon.com/s?k=Intel+Core+Ultra+9+285K" target="_blank" class="btn-amazon">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
       </div>
@@ -1093,7 +1101,7 @@
       <h2>AMD Ryzen 5 7600</h2>
       <p>Best budget CPU for gaming in 2026. 6 cores, incredible efficiency, AM5 platform.</p>
       <div class="banner-actions">
-        <a href="https://amzn.to/4dOcMOT" target="_blank" class="btn-amazon">
+        <a href="https://www.amazon.com/s?k=AMD+Ryzen+5+7600" target="_blank" class="btn-amazon">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
       </div>
@@ -1111,9 +1119,14 @@
       <div class="filter-tabs">
         <button class="filter-tab active" data-filter="all">All</button>
         <button class="filter-tab" data-filter="cpu">CPUs</button>
+        <button class="filter-tab" data-filter="gpu">GPUs</button>
         <button class="filter-tab" data-filter="motherboard">Motherboards</button>
         <button class="filter-tab" data-filter="memory">Memory</button>
         <button class="filter-tab" data-filter="cooling">Cooling</button>
+        <button class="filter-tab" data-filter="keyboard">Keyboards</button>
+        <button class="filter-tab" data-filter="mouse">Mice</button>
+        <button class="filter-tab" data-filter="storage">Storage</button>
+        <button class="filter-tab" data-filter="psu">PSU</button>
       </div>
     </div>
     <a href="#" class="view-all-link">View all products →</a>
@@ -1143,7 +1156,7 @@
           <div class="spec-row"><span class="sr-label">Socket</span><span class="sr-val">LGA1700</span></div>
         </div>
         <p style="font-size:0.78rem; color:var(--muted); margin-top:14px">Perfect for office work, light gaming, and everyday tasks.</p>
-        <a href="https://amzn.to/4txMfde" target="_blank" class="btn-amazon btn-amazon-block">
+        <a href="https://www.amazon.com/s?k=Intel+Core+i3-14100F" target="_blank" class="btn-amazon btn-amazon-block">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
       </div>
@@ -1162,7 +1175,7 @@
           <div class="spec-row"><span class="sr-label">Socket</span><span class="sr-val">AM5</span></div>
         </div>
         <p style="font-size:0.78rem; color:var(--muted); margin-top:14px">The sweet spot for 1080p / 1440p gaming. Crushes most AAA titles at ultra settings.</p>
-        <a href="https://amzn.to/41Onduk" target="_blank" class="btn-amazon btn-amazon-block">
+        <a href="https://www.amazon.com/s?k=AMD+Ryzen+5+7600X" target="_blank" class="btn-amazon btn-amazon-block">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
       </div>
@@ -1180,7 +1193,7 @@
           <div class="spec-row"><span class="sr-label">Socket</span><span class="sr-val">LGA1700</span></div>
         </div>
         <p style="font-size:0.78rem; color:var(--muted); margin-top:14px">3D rendering, AI workloads, 4K gaming — handles it all without breaking a sweat.</p>
-        <a href="https://amzn.to/3O79mfw" target="_blank" class="btn-amazon btn-amazon-block">
+        <a href="https://www.amazon.com/s?k=Intel+Core+i9-14900K" target="_blank" class="btn-amazon btn-amazon-block">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
       </div>
@@ -1248,7 +1261,7 @@
         <h3>Z790 Motherboard Lineup</h3>
         <p>Pair any Intel 13th or 14th gen CPU with a Z790 board for the ultimate DDR5 platform experience.</p>
         <div class="promo-actions">
-          <a href="https://amzn.to/3PMKF8J" target="_blank" class="btn-amazon">
+          <a href="https://www.amazon.com/s?k=Z790+Motherboard" target="_blank" class="btn-amazon">
             <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
           </a>
         </div>
@@ -1259,7 +1272,7 @@
         <h3>Ryzen 7000 Series</h3>
         <p>AM5 platform with PCIe 5.0, DDR5, and next-gen efficiency — built to last through multiple CPU generations.</p>
         <div class="promo-actions">
-          <a href="https://amzn.to/4c1VmeY" target="_blank" class="btn-amazon">
+          <a href="https://www.amazon.com/s?k=AMD+Ryzen+7000+Series" target="_blank" class="btn-amazon">
             <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
           </a>
         </div>
@@ -1296,7 +1309,7 @@
         <div class="guide-badge badge badge-green">Best CPU Under ₹5,000</div>
         <h3>Intel Core i3-12100F</h3>
         <p>The i3-12100F is the undisputed budget king in India — 4 cores, 8 threads, and strong single-core performance for gaming and everyday tasks. It runs cool, draws little power, and pairs perfectly with any B660 board. Grab it on Amazon India for under ₹5,000 and build a rig that punches way above its price tag.</p>
-        <a href="https://amzn.to/4dvsRsq" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
+        <a href="https://www.amazon.in/s?k=Intel+Core+i3+12100F" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon India
         </a>
       </div>
@@ -1306,7 +1319,7 @@
         <div class="guide-badge badge badge-blue">Best Motherboard for Ryzen 7</div>
         <h3>MSI B550M Pro-VDH WiFi</h3>
         <p>If you're running a Ryzen 7 5700X or 5800X, the MSI B550M Pro-VDH WiFi is your best value board in India. It offers PCIe 4.0 support, built-in WiFi, solid VRM for stable power delivery, and great BIOS options for tweaking memory speeds. Available widely across Indian retailers and Amazon India at a fair price point.</p>
-        <a href="https://amzn.to/4sbTCpD" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
+        <a href="https://www.amazon.in/s?k=MSI+B550M+Pro+VDH+WiFi" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon India
         </a>
       </div>
@@ -1316,7 +1329,7 @@
         <div class="guide-badge badge badge-gold">Best RAM Under ₹2,000</div>
         <h3>Crucial 8GB DDR4-3200</h3>
         <p>For builders on a tight budget, Crucial's 8GB DDR4 3200MHz stick is the most reliable option under ₹2,000 in India. It's compatible with virtually every Intel and AMD platform, runs stable out of the box with no tuning needed, and Crucial's lifetime warranty means you're covered long-term. Pair two sticks for dual-channel performance.</p>
-        <a href="https://amzn.to/4sk1uFs" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
+        <a href="https://www.amazon.in/s?k=Crucial+8GB+DDR4+3200+RAM" target="_blank" class="btn-amazon" style="margin-top:16px; width:100%; justify-content:center">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon India
         </a>
       </div>
@@ -1506,19 +1519,171 @@
       badges: [{ cls: 'badge-gold', label: 'GOAT Cooler' }],
       amazon: 'https://www.amazon.com/s?k=Noctua+NH-D15+Chromax+Black'
     },
+
+    /* ── GPUs (under ₹20,000) ── */
+    {
+      id: 13, cat: 'gpu', brand: 'Sapphire', icon: '🟢',
+      name: 'Radeon RX 6600 8GB',
+      specs: ['8GB GDDR6', '2491 MHz', 'PCIe 4.0', '132W TDP'],
+      stock: 'in', rating: 4.7, reviews: 3120,
+      badges: [{ cls: 'badge-blue', label: 'Best Under ₹20K' }],
+      price: '₹18,500',
+      amazon: 'https://www.amazon.in/s?k=Sapphire+RX+6600+8GB'
+    },
+    {
+      id: 14, cat: 'gpu', brand: 'Zotac', icon: '🟢',
+      name: 'GTX 1660 Super 6GB',
+      specs: ['6GB GDDR6', '1785 MHz', 'PCIe 3.0', '125W TDP'],
+      stock: 'in', rating: 4.6, reviews: 5840,
+      badges: [{ cls: 'badge-green', label: 'Value Pick' }],
+      price: '₹15,000',
+      amazon: 'https://www.amazon.in/s?k=Zotac+GTX+1660+Super+6GB'
+    },
+    {
+      id: 15, cat: 'gpu', brand: 'MSI', icon: '🟢',
+      name: 'Radeon RX 6500 XT 4GB',
+      specs: ['4GB GDDR6', '2610 MHz', 'PCIe 4.0', '107W TDP'],
+      stock: 'low', rating: 4.3, reviews: 2210,
+      badges: [{ cls: 'badge-gold', label: 'Budget GPU' }],
+      price: '₹11,000',
+      amazon: 'https://www.amazon.in/s?k=MSI+RX+6500+XT+4GB'
+    },
+
+    /* ── KEYBOARDS (under ₹1,500) ── */
+    {
+      id: 16, cat: 'keyboard', brand: 'Redgear', icon: '⌨️',
+      name: 'MK881 Wired Mechanical',
+      specs: ['Full Size', 'Blue Switches', 'RGB Backlit', 'USB'],
+      stock: 'in', rating: 4.3, reviews: 14820,
+      badges: [{ cls: 'badge-green', label: 'Budget Pick' }],
+      price: '₹799',
+      amazon: 'https://www.amazon.in/s?k=Redgear+MK881+Mechanical+Keyboard'
+    },
+    {
+      id: 17, cat: 'keyboard', brand: 'TVS', icon: '⌨️',
+      name: 'Gold Bharat Mechanical',
+      specs: ['Full Size', 'Gold Switches', 'Tactile Feel', 'USB'],
+      stock: 'in', rating: 4.5, reviews: 9310,
+      badges: [{ cls: 'badge-blue', label: 'Most Durable' }],
+      price: '₹1,249',
+      amazon: 'https://www.amazon.in/s?k=TVS+Gold+Bharat+Mechanical+Keyboard'
+    },
+    {
+      id: 18, cat: 'keyboard', brand: 'Zebronics', icon: '⌨️',
+      name: 'Zeb-MAX Plus II',
+      specs: ['Full Size', 'Membrane', 'Rainbow LED', 'Spill-Proof'],
+      stock: 'in', rating: 4.1, reviews: 22400,
+      badges: [{ cls: 'badge-gold', label: 'Best Seller' }],
+      price: '₹599',
+      amazon: 'https://www.amazon.in/s?k=Zebronics+Zeb-MAX+Plus+II'
+    },
+
+    /* ── MICE (under ₹1,000) ── */
+    {
+      id: 19, cat: 'mouse', brand: 'Logitech', icon: '🖱️',
+      name: 'G102 Lightsync',
+      specs: ['200–8000 DPI', '6 Buttons', 'RGB', 'Wired'],
+      stock: 'in', rating: 4.5, reviews: 38900,
+      badges: [{ cls: 'badge-purple', label: 'Top Rated' }],
+      price: '₹599',
+      amazon: 'https://www.amazon.in/s?k=Logitech+G102+Lightsync'
+    },
+    {
+      id: 20, cat: 'mouse', brand: 'Logitech', icon: '🖱️',
+      name: 'G304 Wireless',
+      specs: ['200–12000 DPI', 'HERO Sensor', '250h Battery', 'Wireless'],
+      stock: 'in', rating: 4.6, reviews: 26700,
+      badges: [{ cls: 'badge-blue', label: 'Wireless Under ₹1K' }],
+      price: '₹849',
+      amazon: 'https://www.amazon.in/s?k=Logitech+G304+Wireless+Mouse'
+    },
+    {
+      id: 21, cat: 'mouse', brand: 'Razer', icon: '🖱️',
+      name: 'DeathAdder Essential',
+      specs: ['6400 DPI', 'Optical Sensor', 'Ergonomic', 'Wired'],
+      stock: 'in', rating: 4.4, reviews: 18500,
+      badges: [{ cls: 'badge-gold', label: 'Ergonomic Pick' }],
+      price: '₹949',
+      amazon: 'https://www.amazon.in/s?k=Razer+DeathAdder+Essential'
+    },
+
+    /* ── STORAGE (under ₹10,000) ── */
+    {
+      id: 22, cat: 'storage', brand: 'Kingston', icon: '💾',
+      name: 'A400 480GB SSD',
+      specs: ['SATA III', '500 MB/s Read', '2.5 inch', '480GB'],
+      stock: 'in', rating: 4.5, reviews: 41200,
+      badges: [{ cls: 'badge-green', label: 'Best Budget SSD' }],
+      price: '₹2,999',
+      amazon: 'https://www.amazon.in/s?k=Kingston+A400+480GB+SSD'
+    },
+    {
+      id: 23, cat: 'storage', brand: 'WD', icon: '💾',
+      name: 'WD Blue 1TB HDD',
+      specs: ['SATA III', '7200 RPM', '64MB Cache', '1TB'],
+      stock: 'in', rating: 4.4, reviews: 29800,
+      badges: [{ cls: 'badge-blue', label: 'Most Popular HDD' }],
+      price: '₹2,800',
+      amazon: 'https://www.amazon.in/s?k=WD+Blue+1TB+HDD'
+    },
+    {
+      id: 24, cat: 'storage', brand: 'Seagate', icon: '💾',
+      name: 'Barracuda 2TB HDD',
+      specs: ['SATA III', '7200 RPM', '256MB Cache', '2TB'],
+      stock: 'in', rating: 4.3, reviews: 17600,
+      badges: [{ cls: 'badge-gold', label: 'Best Value HDD' }],
+      price: '₹3,799',
+      amazon: 'https://www.amazon.in/s?k=Seagate+Barracuda+2TB+HDD'
+    },
+
+    /* ── PSU (under ₹2,000) ── */
+    {
+      id: 25, cat: 'psu', brand: 'Ant Esports', icon: '⚡',
+      name: 'VS450L 450W',
+      specs: ['450W', '80 Plus', 'Non-Modular', 'Active PFC'],
+      stock: 'in', rating: 4.1, reviews: 8740,
+      badges: [{ cls: 'badge-green', label: 'Budget Pick' }],
+      price: '₹1,199',
+      amazon: 'https://www.amazon.in/s?k=Ant+Esports+VS450L+450W+PSU'
+    },
+    {
+      id: 26, cat: 'psu', brand: 'Circle', icon: '⚡',
+      name: 'CG-550W Bronze',
+      specs: ['550W', '80+ Bronze', 'Non-Modular', 'Short Circuit Protection'],
+      stock: 'in', rating: 4.0, reviews: 5300,
+      badges: [{ cls: 'badge-blue', label: 'Reliable & Cheap' }],
+      price: '₹1,599',
+      amazon: 'https://www.amazon.in/s?k=Circle+CG+550W+Bronze+PSU'
+    },
+    {
+      id: 27, cat: 'psu', brand: 'Corsair', icon: '⚡',
+      name: 'CV450 450W 80+ Bronze',
+      specs: ['450W', '80+ Bronze', 'Non-Modular', 'OVP/OCP/OPP'],
+      stock: 'in', rating: 4.3, reviews: 11200,
+      badges: [{ cls: 'badge-gold', label: 'Trusted Brand' }],
+      price: '₹1,899',
+      amazon: 'https://www.amazon.in/s?k=Corsair+CV450+450W'
+    },
   ];
 
   /* ── TICKER ── */
   const tickerData = [
-    { name: 'Intel Core Ultra 9 285K', tag: 'New' },
-    { name: 'AMD Ryzen 9 9950X',       tag: 'AM5' },
-    { name: 'ROG Maximus Z790 Hero',   tag: 'WiFi 7' },
-    { name: 'Corsair Vengeance DDR5',  tag: 'DDR5' },
-    { name: 'Intel Core i5-14600K',    tag: 'Best Seller' },
-    { name: 'Noctua NH-D15 Chromax',   tag: 'In Stock' },
-    { name: 'AMD Ryzen 5 7600',        tag: 'Value Pick' },
-    { name: 'MSI MAG X670E Tomahawk',  tag: 'AM5 Board' },
-    { name: 'G.Skill Trident Z5 64GB', tag: 'Low Stock' },
+    { name: 'Intel Core Ultra 9 285K',       tag: 'New' },
+    { name: 'AMD Ryzen 9 9950X',             tag: 'AM5' },
+    { name: 'RTX 4070 Super 12GB',           tag: 'GPU' },
+    { name: 'Logitech G Pro X Superlight 2', tag: 'Mouse' },
+    { name: 'Keychron Q3 Pro',               tag: 'Keyboard' },
+    { name: 'ROG Maximus Z790 Hero',         tag: 'WiFi 7' },
+    { name: 'Corsair Vengeance DDR5',        tag: 'DDR5' },
+    { name: 'Samsung 990 Pro 2TB',           tag: 'NVMe' },
+    { name: 'Intel Core i5-14600K',          tag: 'Best Seller' },
+    { name: 'Noctua NH-D15 Chromax',         tag: 'In Stock' },
+    { name: 'AMD RX 7700 XT 12GB',           tag: 'GPU' },
+    { name: 'Corsair RM850x 80+ Gold',       tag: 'PSU' },
+    { name: 'Razer DeathAdder V3',           tag: 'Mouse' },
+    { name: 'AMD Ryzen 5 7600',              tag: 'Value Pick' },
+    { name: 'Corsair K70 RGB Pro',           tag: 'Keyboard' },
+    { name: 'G.Skill Trident Z5 64GB',       tag: 'Low Stock' },
   ];
 
   function buildTicker() {
@@ -1606,6 +1771,7 @@
           ${p.specs.map(s => `<span class="spec-pill">${s}</span>`).join('')}
         </div>
         ${stockHTML(p.stock)}
+        ${p.price ? `<div class="card-price">${p.price}</div>` : ''}
         <a href="${p.amazon}" target="_blank" class="btn-amazon" style="width:100%; justify-content:center; margin-top:4px">
           <span class="btn-amazon-icon">🛒</span> Check Price on Amazon
         </a>
